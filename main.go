@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"log"
-	"github.com/myredis/config"
-	"github.com/myredis/server"
+	"github.com/oceakun/myredis/config"
+	"github.com/oceakun/myredis/server"
 )
 
 func setupFlags(){
@@ -15,6 +15,6 @@ func setupFlags(){
 
 func main(){
 	setupFlags()
-	log.Println("rolling the coin")
+	log.Println("flipping the coin")
 	server.RunSyncTCPServer()
 }

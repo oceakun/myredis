@@ -1,3 +1,3 @@
-module github.com/myredis
+module github.com/oceakun/myredis
 
 go 1.24.5
